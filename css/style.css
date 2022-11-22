@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #1D1D1D !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.container-fluid {
+	background-color: #1D1D1D;
+}
+
+#header {
+	margin: 39px 0px 0px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #F8F8FF;
+}
+
+
+p {
+	line-height: 1.5;
+	font-size: .9em;
+}
+
+#specialty {
+	animation: color-change 15s infinite;
+	padding-left: 2px;
+}
+
+#hamburger-menu {
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: 70px;
+}
+
+@keyframes color-change {
+	0% {
+		color: #f7f54f
+	}
+
+	50% {
+		color: #4f92f7;
+	}
+
+	75% {
+		color: #b167db;
+	}
+
+	100% {
+		color: #f7f54f
+	}
+}
+
+.navbar-toggler {
+	border: 0px !important;
+}
+
+.navbar-toggler-icon {
+	border: 0px !important;
+	height: 40px !important;
+	width: 40px !important;
+}
+
+.navbar-dark {
+	justify-content: right;
+}
+
+#portfolio-slideshow {
+	background-color: #A8A7B2;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.slideshow-text {
+	margin-top: 10px;
+	text-align: center;
+	color: #1D1D1D;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+#greeting {
+	margin: 30px 0 10px;
+	text-align: center;
+	font-size: .9em;
+}
+
+#footer {
+	text-align: center;
+}
+
+
+/* unvisited link */
+a:link {
+	color: red;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #21d150;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+	text-decoration: none;
+}
+
+#about {
+	text-align: center;
+}
+
+#about-text {
+	text-align: left;
+}
+
+#footer-text {
+	font-size: .8em;
+}
+
+
+@media screen and (min-width: 500px) {
+
+	body {
+		background-color: #1D1D1D;
+	}
+
+	#portfolio-slideshow img{
+	height: 650px;
+}
+
+	#name #specialty {
+		margin-left: 50px;
+		padding-left: 40px;
+
+	}
+
+	p {
+		text-align: left;
+		margin: 0 auto;
+		padding: 0 50px;
+	}
+
+	#footer-text {
+		text-align: center;
+	}
+
+
+} 
+
