@@ -135,12 +135,12 @@ table {
 }
 
 body {
-	background-color: #1D1D1D !important;
+	background-color: #191919 !important;
 	font-family: 'Roboto', sans-serif !important;
 }
 
 .container-fluid {
-	background-color: #1D1D1D;
+	background-color: #191919;
 }
 
 #header {
@@ -154,7 +154,7 @@ h4,
 h5,
 h6,
 p {
-	color: #F8F8FF;
+	color: #f9f9f9;
 }
 
 
@@ -207,7 +207,7 @@ p {
 }
 
 #portfolio-slideshow {
-	background-color: #A8A7B2;
+	background-color: #f9f9f9;
 	margin-top: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -217,7 +217,7 @@ p {
 .slideshow-text {
 	margin-top: 10px;
 	text-align: center;
-	color: #1D1D1D;
+	color: #191919;
 }
 
 .carousel-control-next,
@@ -276,7 +276,7 @@ a:active {
 @media screen and (min-width: 500px) {
 
 	body {
-		background-color: #1D1D1D;
+		background-color: #191919;
 	}
 
 	#portfolio-slideshow img{
