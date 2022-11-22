@@ -144,7 +144,7 @@ body {
 }
 
 #header {
-	margin: 39px 0px 0px 0px;
+	margin: 40px 0px 30px 0px;
 }
 
 h1,
@@ -209,8 +209,8 @@ p {
 #portfolio-slideshow {
 	background-color: #f9f9f9;
 	margin-top: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -221,8 +221,11 @@ p {
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(100%);
+.carousel-control-prev
+
+/*, .carousel-indicators */
+	{
+	filter: invert(100%);
 }
 
 #greeting {
@@ -279,9 +282,9 @@ a:active {
 		background-color: #191919;
 	}
 
-	#portfolio-slideshow img{
-	height: 650px;
-}
+	#portfolio-slideshow img {
+		height: 650px;
+	}
 
 	#name #specialty {
 		margin-left: 50px;
@@ -300,5 +303,4 @@ a:active {
 	}
 
 
-} 
-
+}
