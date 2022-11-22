@@ -165,7 +165,7 @@ p {
 
 #specialty {
 	animation: color-change 15s infinite;
-	padding-left: 2px;
+	padding-left: 1px;
 }
 
 #hamburger-menu {
@@ -192,8 +192,13 @@ p {
 	}
 }
 
+.navbar-dark {
+	margin-top: 15px;
+}
+
 .navbar-toggler {
 	border: 0px !important;
+	margin-bottom: 1px;
 }
 
 .navbar-toggler-icon {
@@ -202,15 +207,18 @@ p {
 	width: 40px !important;
 }
 
-.navbar-dark {
-	justify-content: right;
+#navbarToggleExternalContent {
+	text-align: right;
+	visibility: visible;
+	margin-right: 28px;
+	flex: auto;
 }
 
 #portfolio-slideshow {
 	background-color: #f9f9f9;
 	margin-top: 10px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	text-align: center;
 }
 
@@ -238,6 +246,9 @@ p {
 	text-align: center;
 }
 
+a {
+	scroll-behavior: smooth;
+}
 
 /* unvisited link */
 a:link {
@@ -282,6 +293,10 @@ a:active {
 		background-color: #191919;
 	}
 
+	.navbar-dark {
+		margin: 20px 240px 10px;
+	}
+
 	#portfolio-slideshow img {
 		height: 650px;
 	}
@@ -294,8 +309,29 @@ a:active {
 
 	p {
 		text-align: left;
-		margin: 0 auto;
-		padding: 0 50px;
+	}
+
+	#greeting {
+		text-align: center;
+	}
+
+	#introduction {
+		margin-top: 20px;
+	}
+
+	#about, #greeting{
+		margin-bottom: 30px;
+		padding: 0 300px;
+	}
+	
+	#about {
+		padding-top: 10px;
+	}
+
+	#linkedin {
+		fill: #f9f9f9;
+		height: 25px;
+		width: 25px;
 	}
 
 	#footer-text {
