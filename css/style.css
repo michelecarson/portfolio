@@ -282,6 +282,12 @@ a:active {
 	text-align: left;
 }
 
+#linkedin {
+	fill: #f9f9f9;
+	height: 25px;
+	width: 25px;
+}
+
 #footer-text {
 	font-size: .8em;
 }
@@ -326,12 +332,6 @@ a:active {
 	
 	#about {
 		padding-top: 10px;
-	}
-
-	#linkedin {
-		fill: #f9f9f9;
-		height: 25px;
-		width: 25px;
 	}
 
 	#footer-text {
