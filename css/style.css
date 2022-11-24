@@ -136,11 +136,21 @@ table {
 
 body {
 	background-color: #191919 !important;
-	font-family: 'Roboto', sans-serif !important;
+	/* font-family: 'Roboto', sans-serif !important; */
+	/* font-family: 'arial', sans-serif !important; */
 }
 
 .container-fluid {
 	background-color: #191919;
+}
+
+.content-title {
+	text-align: center;
+}
+
+.content {
+	margin: 10px 30px 10px;
+	text-align: left;
 }
 
 #header {
@@ -163,9 +173,18 @@ p {
 	font-size: .9em;
 }
 
+#name {
+	margin-bottom: 0;
+}
+
 #specialty {
 	animation: color-change 15s infinite;
 	padding-left: 1px;
+}
+
+#introduction {
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 
 #hamburger-menu {
@@ -194,6 +213,7 @@ p {
 
 .navbar-dark {
 	margin-top: 15px;
+	margin-bottom: 10px;
 }
 
 .navbar-toggler {
@@ -212,13 +232,13 @@ p {
 	visibility: visible;
 	margin-right: 28px;
 	flex: auto;
+	font-size: .9em;
 }
 
 #portfolio-slideshow {
 	background-color: #f9f9f9;
-	margin-top: 10px;
-	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
@@ -226,6 +246,10 @@ p {
 	margin-top: 10px;
 	text-align: center;
 	color: #191919;
+}
+
+.slideshow-panel-name {
+	font-size: 1.2em;
 }
 
 .carousel-control-next,
@@ -236,10 +260,10 @@ p {
 	filter: invert(100%);
 }
 
-#greeting {
-	margin: 30px 0 10px;
+#introduction {
+	margin-top: 20px;
+	margin-bottom: 0;
 	text-align: center;
-	font-size: .9em;
 }
 
 #footer {
@@ -252,25 +276,25 @@ a {
 
 /* unvisited link */
 a:link {
-	color: red;
+	color: #979797;
 	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-	color: #21d150;
+	color: #cacaca;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-	color: hotpink;
+	color: #2778c9aa;
 	text-decoration: none;
 }
 
 /* selected link */
 a:active {
-	color: blue;
+	color: #2778c9f1;
 	text-decoration: none;
 }
 
@@ -278,14 +302,10 @@ a:active {
 	text-align: center;
 }
 
-#about-text {
-	text-align: left;
-}
-
 #linkedin {
-	fill: #f9f9f9;
-	height: 25px;
-	width: 25px;
+	filter: invert(100%);
+	height: 20px;
+	width: 20px;
 }
 
 #footer-text {
@@ -293,7 +313,7 @@ a:active {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
 
 	body {
 		background-color: #191919;
@@ -303,14 +323,13 @@ a:active {
 		margin: 20px 240px 10px;
 	}
 
-	#portfolio-slideshow img {
-		height: 650px;
-	}
-
 	#name #specialty {
 		margin-left: 50px;
 		padding-left: 40px;
+	}
 
+	#portfolio-slideshow {
+		padding: 0 250px;
 	}
 
 	p {
@@ -321,21 +340,20 @@ a:active {
 		text-align: center;
 	}
 
-	#introduction {
-		margin-top: 20px;
+	.content-title {
+		font-size: 1.3em;
 	}
 
-	#about, #greeting{
+	.content {
 		margin-bottom: 30px;
-		padding: 0 300px;
+		padding: 0 220px;
+		font-size: .95em;
 	}
-	
-	#about {
-		padding-top: 10px;
-	}
+
 
 	#footer-text {
 		text-align: center;
+		font-size: .7em;
 	}
 
 
