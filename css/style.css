@@ -180,6 +180,7 @@ p {
 #specialty {
 	animation: color-change 15s infinite;
 	padding-left: 1px;
+	font-size: .99em;
 }
 
 #introduction {
