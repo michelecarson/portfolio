@@ -146,10 +146,13 @@ body {
 
 .content-title {
 	text-align: center;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+	font-size: 1.2em;
 }
 
 .content {
-	margin: 10px 30px 10px;
+	margin: 10px 30px 30px;
 	text-align: left;
 }
 
@@ -270,13 +273,6 @@ p {
 	font-size: .9em;
 }
 
-.content-title {
-	font-size: 1.3em;
-	padding-bottom: 10px;
-	font-size: 1.2em;
-}
-
-
 a {
 	scroll-behavior: smooth;
 }
@@ -309,6 +305,11 @@ a:active {
 	text-align: center;
 }
 
+.preview-image {
+	margin: 0px 0px 20px;
+}
+
+
 #linkedin {
 	filter: invert(100%);
 	height: 15px;
@@ -317,10 +318,11 @@ a:active {
 }
 
 #footer {
-	margin-top: 100px;
+	margin-top: 120px;
 	text-align: center;
 
 }
+
 #footer-text {
 	font-size: .8em;
 }
@@ -340,7 +342,7 @@ a:active {
 		margin-left: 50px;
 		padding-left: 40px;
 	}
-	
+
 	#specialty {
 		font-size: 1.2em;
 		margin-left: 1px;
@@ -351,7 +353,7 @@ a:active {
 	} */
 
 	#portfolio-slideshow {
-		padding: 0 270px 15px;
+		padding: 0 270px;
 	}
 
 	p {
@@ -362,9 +364,22 @@ a:active {
 		text-align: center;
 	}
 
+	#release-date {
+		padding-bottom: 20px;
+	}
+
 	.content {
-		margin-bottom: 30px;
 		padding: 0 310px;
+
+	}
+
+	.short-content {
+		text-align: center;
+	}
+
+
+	.preview-image {
+		margin: 0px 250px 30px;
 	}
 
 
