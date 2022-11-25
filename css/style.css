@@ -308,6 +308,10 @@ a:active {
 	width: 20px;
 }
 
+#footer {
+	margin-top: 100px;
+
+}
 #footer-text {
 	font-size: .8em;
 }
