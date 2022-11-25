@@ -233,7 +233,6 @@ p {
 	visibility: visible;
 	margin-right: 28px;
 	flex: auto;
-	font-size: .9em;
 }
 
 #portfolio-slideshow {
@@ -267,9 +266,16 @@ p {
 	text-align: center;
 }
 
-#footer {
-	text-align: center;
+#release-date {
+	font-size: .9em;
 }
+
+.content-title {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
 
 a {
 	scroll-behavior: smooth;
@@ -305,12 +311,14 @@ a:active {
 
 #linkedin {
 	filter: invert(100%);
-	height: 20px;
-	width: 20px;
+	height: 15px;
+	width: 15px;
+	margin-bottom: 4px;
 }
 
 #footer {
 	margin-top: 100px;
+	text-align: center;
 
 }
 #footer-text {
@@ -332,9 +340,18 @@ a:active {
 		margin-left: 50px;
 		padding-left: 40px;
 	}
+	
+	#specialty {
+		font-size: 1.2em;
+		margin-left: 1px;
+	}
+
+	/* #navbarToggleExternalContent {
+		font-size: .8em;
+	} */
 
 	#portfolio-slideshow {
-		padding: 0 250px 15px;
+		padding: 0 270px 15px;
 	}
 
 	p {
@@ -345,14 +362,9 @@ a:active {
 		text-align: center;
 	}
 
-	.content-title {
-		font-size: 1.3em;
-	}
-
 	.content {
 		margin-bottom: 30px;
-		padding: 0 220px;
-		font-size: .95em;
+		padding: 0 310px;
 	}
 
 
