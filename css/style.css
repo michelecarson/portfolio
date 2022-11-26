@@ -326,6 +326,13 @@ a:active {
 }
 
 
+@media screen and (min-width: 500px) {
+	.preview-page-toggler {
+		visibility: hidden;
+	}
+}
+
+
 @media screen and (min-width: 1000px) {
 
 	body {
@@ -345,10 +352,6 @@ a:active {
 		font-size: 1.2em;
 		margin-left: 1px;
 	}
-
-	/* #navbarToggleExternalContent {
-		font-size: .8em;
-	} */
 
 	#portfolio-slideshow {
 		padding: 0 270px;
