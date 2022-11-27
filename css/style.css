@@ -198,19 +198,19 @@ p {
 
 @keyframes color-change {
 	0% {
-		color: #f7f54f
+		color: #eae0a2
 	}
 
 	50% {
-		color: #4f92f7;
+		color: #74a6f2;
 	}
 
 	75% {
-		color: #b167db;
+		color: #bd87dc;
 	}
 
 	100% {
-		color: #f7f54f
+		color: #eae0a2
 	}
 }
 
@@ -306,6 +306,10 @@ a:active {
 
 #preview-image {
 	margin-bottom: 30px;
+}
+
+#doc-file {
+	margin-top: 10px
 }
 
 
