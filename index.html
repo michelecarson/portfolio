@@ -20,7 +20,7 @@
   <div class="container-fluid" id="wrapper">
     <!--Bootstrap Wrapper-->
 
-    <nav class="navbar navbar-dark">
+    <!-- <nav class="navbar navbar-dark">
       <div class="container-fluid d-flex flex-row-reverse">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
@@ -34,11 +34,33 @@
       </div>
 
       <div class="collapse" id="navbarToggleExternalContent">
-        <!-- <h5><a href="#portfolio-slideshow">projects</h5></a> -->
         <h5><a href="#introduction">about</h5></a>
         <h5><a href="#footer-text">contact</h5></a>
       </div>
-    </nav>
+    </nav> -->
+
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand abs" href="index.html">
+            <h1 id="name">Michele Carson</h1>
+            <h4 id="specialty">UX/UI Designer &#38; Developer</h4>
+          </a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse flex-row-reverse" id="collapseNavbar">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link float-end" href="#introduction" style="margin-right: 15px;">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link float-end" href="#footer-text" style="margin-right: 15px;">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
     <section class="row">
       <div class="col" id="portfolio-slideshow">
@@ -65,6 +87,7 @@
                 <img src="images/super-snake-landscape.png" class="d-block w-100" alt="...">
                 <h3 class="slideshow-text slideshow-panel-name">Super Snake</h3>
                 <p class="slideshow-text">HTML Canvas snake game.</p>
+                <h6><a href="https://dtc-wsuv.org/mcarson21/dtc477/gameproject/" class="slideshow-text fw-semibold" class="release-date">Available Now!</h6></a>
               </a>
             </div>
           </div>
@@ -99,7 +122,7 @@
       <p class="content" style="margin-bottom:0px;">In the CMDC, I have been exposed to all components of design and development.<br>This includes:
         <ul class="content" style="list-style-type:disc;">
          <li>Content creation with the Adobe Creative Suite</li>
-         <li>Programming languages such as HTML5, CSS3, JavaScript, jQuery, Bootstrap, and C#</li> 
+         <li>Programming languages such as HTML5, CSS3, JavaScript, jQuery, SCSS, Bootstrap, and C#</li> 
          <li>Version Control Software and Cloud-Based Hosting with Git and GitHub</li>
          <li>Game Development with Unity and HTML Canvas</li>
          <li>User Experience and Interface Design with Adobe XD and Figma</li>

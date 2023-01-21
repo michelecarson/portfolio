@@ -150,9 +150,6 @@ body {
 	font-size: 1.2em;
 }
 
-#preview-available {
-}
-
 .content {
 	margin: 10px 30px 30px;
 	text-align: left;
@@ -189,7 +186,7 @@ p {
 #specialty {
 	animation: color-change 15s infinite;
 	padding-left: 1px;
-	font-size: .99em;
+	font-size: .85em;
 }
 
 #introduction {
@@ -233,8 +230,8 @@ p {
 
 .navbar-toggler-icon {
 	border: 0px !important;
-	height: 40px !important;
-	width: 40px !important;
+	height: 35px !important;
+	width: 35px !important;
 }
 
 #navbarToggleExternalContent {
