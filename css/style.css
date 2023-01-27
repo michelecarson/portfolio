@@ -167,14 +167,6 @@ h5,
 h6,
 p {
 	color: #f9f9f9;
-}
-
-h6 {
-	margin-bottom: .4rem !important;
-}
-
-
-p {
 	line-height: 1.5;
 	font-size: .9em;
 }
@@ -247,7 +239,6 @@ p {
 	padding-bottom: 10px;
 	text-align: center;
 }
-
 .slideshow-text {
 	margin-top: 10px;
 	text-align: center;
@@ -266,12 +257,12 @@ p {
 	filter: invert(100%);
 }
 
-/* .carousel-item {
-	height: 790px;
-	overflow: hidden;
-	width: 100%;
+.carousel-item {
+	margin-bottom: 10px;
 	}
-	.carousel-item img {
+
+/*
+.carousel-item img {
 	width: 100%;
 	}
 
@@ -298,6 +289,7 @@ ul, li {
 	color:#f9f9f9;
 	font-size: .95em;
 }
+
 
 /* unvisited link */
 a:link {
@@ -327,7 +319,7 @@ a:active {
 	text-align: center;
 }
 
-#preview-image {
+.preview-image {
 	margin-bottom: 30px;
 }
 
@@ -395,14 +387,6 @@ a:active {
 
 	#greeting {
 		text-align: center;
-	}
-
-	#funhouse-slide {
-		padding-bottom: 20px;
-	}
-
-	#preview-image {
-		margin-bottom: 30px;
 	}
 
 	.content {
