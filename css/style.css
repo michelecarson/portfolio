@@ -257,10 +257,6 @@ p {
 	filter: invert(100%);
 }
 
-.carousel-item {
-	margin-bottom: 10px;
-	}
-
 /*
 .carousel-item img {
 	width: 100%;
@@ -380,6 +376,10 @@ a:active {
 	#portfolio-slideshow {
 		padding: 0 270px;
 	}
+	
+	.carousel-item {
+		margin-bottom: 10px;
+		}
 
 	p {
 		text-align: left;
