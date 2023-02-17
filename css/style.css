@@ -308,8 +308,12 @@ a:hover {
 	font-weight: bold !important;
 }
 
-.nav-link:hover {
+.nav-link {
 	color: #cacaca !important;
+}
+
+.nav-link:hover {
+	color: #f9f9f9 !important;
 	text-decoration: none;
 }
 
