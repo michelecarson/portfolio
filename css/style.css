@@ -182,8 +182,9 @@ p {
 }
 
 #introduction {
-	margin-top: 10px;
-	margin-bottom: 0;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 0px !important;
 }
 
 #hamburger-menu {
@@ -270,13 +271,6 @@ p {
 	padding-top: 80px;
 } */
 
-
-#introduction {
-	margin-top: 20px;
-	margin-bottom: 0;
-	text-align: center;
-}
-
 a {
 	scroll-behavior: smooth;
 }
@@ -286,29 +280,41 @@ ul, li {
 	font-size: .95em;
 }
 
-
 /* unvisited link */
 a:link {
-	color: #979797;
+	color: #3366CC;
 	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-	color: #cacaca;
+	color: #795CB2 !important;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-	color: #2778c9aa;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 /* selected link */
-a:active {
-	color: #2778c9f1;
+/* a:active {
+	color: orange;
 	text-decoration: none;
+} */
+
+.nav-link {
+	font-size: larger !important;	
+	font-weight: bold !important;
+}
+
+.nav-link:hover {
+	color: #cacaca !important;
+	text-decoration: none;
+}
+
+.navbar-brand:hover {
+	text-decoration: none !important;
 }
 
 #about {
@@ -351,6 +357,10 @@ a:active {
 @media screen and (min-width: 500px) {
 	.preview-page-toggler {
 		visibility: hidden;
+	}
+
+	.nav-link {
+		font-weight: lighter !important;
 	}
 
 	.short-content {
