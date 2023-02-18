@@ -288,12 +288,13 @@ a:link {
 
 /* visited link */
 a:visited {
-	color: #795CB2 !important;
+	color: #C58AF9 !important;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
+	color: #8AB4F8;
 	text-decoration: underline;
 }
 
