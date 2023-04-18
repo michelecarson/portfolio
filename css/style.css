@@ -319,6 +319,11 @@ a:hover {
 	margin-bottom: 30px;
 }
 
+#react-projects-img {
+	border-radius: 25px;
+	border: 1.75px solid gray;
+}
+
 #doc-file {
 	margin-top: 10px
 }
