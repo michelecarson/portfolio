@@ -266,19 +266,6 @@ p {
 	filter: invert(100%);
 }
 
-/*
-.carousel-item img {
-	width: 100%;
-	}
-
-#zombie-preview {
-	padding-top: 100px;
-}
-
-#snake-preview {
-	padding-top: 80px;
-} */
-
 a {
 	scroll-behavior: smooth;
 }
@@ -305,12 +292,6 @@ a:hover {
 	text-decoration: underline;
 	color: none !important;
 }
-
-/* selected link 
- 	a:active {
-	color: orange;
-	text-decoration: none;
-} */
 
 .nav-link {
 	font-size: larger !important;	
@@ -367,6 +348,7 @@ a:hover {
 }
 
 
+/* Tablet Query */
 @media screen and (min-width: 500px) {
 	.preview-page-toggler {
 		visibility: hidden;
@@ -382,7 +364,7 @@ a:hover {
 
 }
 
-
+/* Desktop Query */
 @media screen and (min-width: 1025px) {
 
 	body {
