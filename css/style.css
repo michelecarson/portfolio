@@ -391,7 +391,10 @@ a:hover {
 	}
 
 	#portfolio-slideshow {
-		padding: 0 270px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 270px;
+		padding-right: 270px;
 	}
 	
 	.carousel-item {
