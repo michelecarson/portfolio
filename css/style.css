@@ -146,7 +146,6 @@ body {
 
 .content-title {
 	text-align: center;
-	font-size: 1.3em;
 	font-size: 1.2em;
 }
 
@@ -377,7 +376,11 @@ a:hover {
 	}
 
 	.navbar-dark {
-		margin: 20px 240px 10px;
+		margin: 10px 240px 5px;
+	}
+
+	#name {
+		font-size: 1.5em;
 	}
 
 	#name #specialty {
@@ -386,7 +389,7 @@ a:hover {
 	}
 
 	#specialty {
-		font-size: 1.2em;
+		font-size: 1em;
 		margin-left: 1px;
 	}
 
