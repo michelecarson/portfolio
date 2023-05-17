@@ -135,13 +135,13 @@ table {
 }
 
 body {
-	background-color: #191919 !important;
+	background-color: #0A0A0A !important;
 	/* font-family: 'Roboto', sans-serif !important; */
 	font-family: 'arial', sans-serif !important;
 }
 
 .container-fluid {
-	background-color: #191919;
+	background-color: #0A0A0A;
 }
 
 .content-title {
@@ -242,7 +242,7 @@ p {
 .slideshow-text {
 	margin-top: 10px;
 	text-align: center;
-	color: #191919;
+	color: #0A0A0A;
 }
 
 .slideshow-text:link {
@@ -372,7 +372,7 @@ a:hover {
 @media screen and (min-width: 1025px) {
 
 	body {
-		background-color: #191919;
+		background-color: #0A0A0A;
 	}
 
 	.navbar-dark {
