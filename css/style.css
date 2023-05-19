@@ -318,6 +318,10 @@ a:hover {
 	margin-bottom: 30px;
 }
 
+.mobile-screen {
+	width: 100px;
+}
+
 #react-projects-img {
 	border-radius: 25px;
 	border: 2px solid gray;
@@ -344,7 +348,6 @@ a:hover {
 .footer {
 	margin-top: 120px;
 	text-align: center;
-
 }
 
 #footer-text {
@@ -364,6 +367,10 @@ a:hover {
 
 	.short-content {
 		text-align: center;
+	}
+
+	.mobile-screen {
+		width: max-content;
 	}
 
 }
@@ -414,7 +421,6 @@ a:hover {
 
 	.content {
 		padding: 0 410px;
-
 	}
 
 	#footer-text {
