@@ -134,14 +134,29 @@ table {
 	border-spacing: 0;
 }
 
+/* End of default CSS */
+
+
+body {
+	background-color: #0A0A0A !important;
+	font-family: 'arial', sans-serif !important;
+}
+
 #header {
 	margin: 40px 0px 30px 0px;
 }
 
-#hamburger-menu {
-	text-align: right;
-	margin-right: 20px;
-	margin-bottom: 70px;
+#name {
+	margin-bottom: 0;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fafafa;
+}
+
+#specialty {
+	animation: color-change 15s infinite;
+	padding-left: 1px;
+	font-size: .85em;
 }
 
 @keyframes color-change {
@@ -167,6 +182,12 @@ table {
 	margin-bottom: 10px;
 }
 
+#hamburger-menu {
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: 70px;
+}
+
 .navbar-toggler {
 	border: 0px !important;
 	margin-bottom: 1px;
@@ -185,13 +206,14 @@ table {
 	flex: auto;
 }
 
-.nav-link {
-	font-size: larger !important;	
-	font-weight: bold !important;
+.nav-item {
+	font-size: larger;	
+	font-weight: bold; 
+	color: #f9f9f9;
 }
 
 .nav-link {
-	color: #cacaca !important;
+	margin-right: 15px;
 }
 
 .nav-link:hover {
@@ -207,31 +229,12 @@ table {
 	text-align: center;
 }
 
-#name {
-	margin-bottom: 0;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #fafafa;
-}
-
-#specialty {
-	animation: color-change 15s infinite;
-	padding-left: 1px;
-	font-size: .85em;
-}
-
-body {
-	background-color: #0A0A0A !important;
-	font-family: 'arial', sans-serif !important;
-}
-
 main {
 	text-align: center;
 	margin: 20px auto;
-	padding: 0 20px;
+	padding: 0 10px;
 	color: #f9f9f9;
 	line-height: 1.5;
-	font-size: .9em;
 }
 
 #main--index-container {
@@ -257,6 +260,7 @@ main {
 
 #main--index-thanks {
 	font-style: italic;
+	font-size: .95em;
 }
 
 .main--title {
@@ -363,7 +367,7 @@ a:hover {
 	margin-top: 120px;
 	text-align: center;
 	color: #f9f9f9;
-	font-size: .9em;
+	font-size: .8em;
 }
 
 .footer-icons {
@@ -438,6 +442,6 @@ a:hover {
 
 	#footer-text {
 		text-align: center;
-		font-size: .7em;
+		font-size: .85em;
 	}
 }
