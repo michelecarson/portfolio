@@ -233,7 +233,7 @@ main {
 	text-align: center;
 	margin: 20px auto;
 	padding: 0 10px;
-	color: #f9f9f9;
+	color: lightgray;
 	line-height: 1.5;
 }
 
@@ -243,6 +243,7 @@ main {
 
 #main--index-title {
 	margin-bottom: 15px;
+	color: #f9f9f9;
 }
 
 #main--index-greeting {
@@ -256,6 +257,7 @@ main {
 
 .main--index-content {
 	text-align: left;
+	margin-bottom: 20px;
 }
 
 #main--index-thanks {
@@ -268,6 +270,7 @@ main {
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
 	margin-bottom: 15px;
+	color: #f9f9f9;
 }
 
 .main--preview-img {
@@ -276,6 +279,7 @@ main {
 
 .main--subtitle {
 	font-weight: 600;
+	color: #f9f9f9;
 }
 
 .main--link-list {
@@ -301,6 +305,7 @@ div.col {
 	padding-bottom: 10px;
 	text-align: center;
 }
+
 .slideshow-text {
 	margin-top: 10px;
 	text-align: center;
@@ -363,15 +368,15 @@ a:hover {
 	border: 2px solid gray;
 }
 
-.footer {
+footer {
 	margin-top: 120px;
 	text-align: center;
-	color: #f9f9f9;
+	color: lightgray;
 	font-size: .8em;
 }
 
 .footer-icons {
-	filter: invert(100%);
+	filter: invert(90%);
 	height: 23px;
 	width: 23px;
 	margin-bottom: 10px;
