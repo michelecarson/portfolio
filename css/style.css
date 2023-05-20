@@ -266,15 +266,20 @@ main {
 .main--index-images-container {
 	margin-block: 30px;
 	display: grid;
-	gap: 30px;
 	justify-self: center;
 	justify-content: space-evenly;
 }
 
-
 .main--index-images-container p {
 	margin-block: 0px;
 	text-align: center;
+}
+
+.main--index-subtitle {
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom:10px;
+	color: #f9f9f9;
 }
 
 .item3, .item4, .item5, .item6 {
@@ -284,11 +289,12 @@ main {
 
 .item1 {
 	grid: auto/ auto auto;
-	gap: 35px;
+	gap: 15px;
 }
 
 .item2 {
 	grid: auto/ auto auto auto;
+	gap: 20px;
 }
 
 .main--index-images-container > img {
