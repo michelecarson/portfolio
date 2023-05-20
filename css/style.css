@@ -134,56 +134,8 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	background-color: #0A0A0A !important;
-	/* font-family: 'Roboto', sans-serif !important; */
-	font-family: 'arial', sans-serif !important;
-}
-
-.container-fluid {
-	background-color: #0A0A0A;
-}
-
-.content-title {
-	text-align: center;
-	font-size: 1.2em;
-}
-
-.content {
-	margin: 20px 20px; /*top, left and right, bottom */
-	text-align: left;
-}
-
 #header {
 	margin: 40px 0px 30px 0px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	color: #f9f9f9;
-	line-height: 1.5;
-	font-size: .9em;
-}
-
-#name {
-	margin-bottom: 0;
-}
-
-#specialty {
-	animation: color-change 15s infinite;
-	padding-left: 1px;
-	font-size: .85em;
-}
-
-#introduction {
-	margin-top: 20px;
-	text-align: center;
-	margin-bottom: 0px !important;
 }
 
 #hamburger-menu {
@@ -233,6 +185,112 @@ p {
 	flex: auto;
 }
 
+.nav-link {
+	font-size: larger !important;	
+	font-weight: bold !important;
+}
+
+.nav-link {
+	color: #cacaca !important;
+}
+
+.nav-link:hover {
+	color: #f9f9f9 !important;
+	text-decoration: none;
+}
+
+.navbar-brand:hover {
+	text-decoration: none !important;
+}
+
+#about {
+	text-align: center;
+}
+
+#name {
+	margin-bottom: 0;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fafafa;
+}
+
+#specialty {
+	animation: color-change 15s infinite;
+	padding-left: 1px;
+	font-size: .85em;
+}
+
+body {
+	background-color: #0A0A0A !important;
+	font-family: 'arial', sans-serif !important;
+}
+
+main {
+	text-align: center;
+	margin: 20px auto;
+	padding: 0 20px;
+	color: #f9f9f9;
+	line-height: 1.5;
+	font-size: .9em;
+}
+
+#main--index-container {
+	margin-top: 15px;
+}
+
+#main--index-title {
+	margin-bottom: 15px;
+}
+
+#main--index-greeting {
+	font-style: italic;
+}
+
+#main--index-name {
+	font-family: 'Lobster Two', cursive;
+	font-style: italic;
+}
+
+.main--index-content {
+	text-align: left;
+}
+
+#main--index-thanks {
+	font-style: italic;
+}
+
+.main--title {
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.main--preview-img {
+	margin-bottom: 20px;
+}
+
+.main--subtitle {
+	font-weight: 600;
+}
+
+.main--link-list {
+	line-height: 2;
+}
+
+.main--link-list-behance {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.35em;
+}
+
+section.row {
+	margin: 0;
+}
+
+div.col {
+	margin-top: 10;
+}
+
 #portfolio-slideshow {
 	background-color: #f9f9f9;
 	padding-top: 30px;
@@ -269,9 +327,9 @@ a {
 	scroll-behavior: smooth;
 }
 
-ul, li {
-	color:#f9f9f9;
-	font-size: .95em;
+ul {
+	list-style-type: disc;
+	text-align: left;
 }
 
 /* unvisited link */
@@ -292,32 +350,6 @@ a:hover {
 	color: none !important;
 }
 
-.nav-link {
-	font-size: larger !important;	
-	font-weight: bold !important;
-}
-
-.nav-link {
-	color: #cacaca !important;
-}
-
-.nav-link:hover {
-	color: #f9f9f9 !important;
-	text-decoration: none;
-}
-
-.navbar-brand:hover {
-	text-decoration: none !important;
-}
-
-#about {
-	text-align: center;
-}
-
-.preview-image {
-	margin-bottom: 30px;
-}
-
 .mobile-screen {
 	width: 100px;
 }
@@ -327,8 +359,11 @@ a:hover {
 	border: 2px solid gray;
 }
 
-#doc-file {
-	margin-top: 10px
+.footer {
+	margin-top: 120px;
+	text-align: center;
+	color: #f9f9f9;
+	font-size: .9em;
 }
 
 .footer-icons {
@@ -337,21 +372,11 @@ a:hover {
 	width: 23px;
 	margin-bottom: 10px;
 	margin-right: 10px;
-	margin-top: 5px;
 }
 
 .footer-icons:hover,
 .footer-icons:focus {
 	filter: invert(30%);
-}
-
-.footer {
-	margin-top: 120px;
-	text-align: center;
-}
-
-#footer-text {
-	font-size: .8em;
 }
 
 
@@ -363,10 +388,6 @@ a:hover {
 
 	.nav-link {
 		font-weight: lighter !important;
-	}
-
-	.short-content {
-		text-align: center;
 	}
 
 	.mobile-screen {
@@ -400,6 +421,10 @@ a:hover {
 		margin-left: 1px;
 	}
 
+	main {
+		padding: 0 410px;
+	}
+
 	#portfolio-slideshow {
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -410,18 +435,6 @@ a:hover {
 	.carousel-item {
 		margin-bottom: 10px;
 		}
-
-	p {
-		text-align: left;
-	}
-
-	#greeting {
-		text-align: center;
-	}
-
-	.content {
-		padding: 0 410px;
-	}
 
 	#footer-text {
 		text-align: center;
