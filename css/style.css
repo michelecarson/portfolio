@@ -264,21 +264,44 @@ p + ul {
     margin-top: -10px;
 }
 
+.item1 {
+	margin-block: 30px;
+	margin-right: 35px;
+	display: grid;
+	grid: auto/ auto auto;
+	gap: 20px;
+	justify-self: center;
+	justify-content: space-around;
+}
+
+.item2 {
+	margin-block: 30px;
+	margin-right: 35px;
+	display: grid;
+	grid: auto/ auto auto auto;
+	gap: 30px;
+	justify-self: center;
+	justify-content: space-around;
+}
+
+.main--index-list-images-container > img {
+	width: 70px;
+}
+
 #main--index-thanks {
 	font-style: italic;
-	font-size: .95em;
 }
 
 .main--title {
 	text-align: center;
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	color: #f9f9f9;
 }
 
 .main--preview-img {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .main--subtitle {
