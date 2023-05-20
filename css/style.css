@@ -136,7 +136,6 @@ table {
 
 /* End of default CSS */
 
-
 body {
 	background-color: #0A0A0A !important;
 	font-family: 'arial', sans-serif !important;
@@ -238,16 +237,17 @@ main {
 }
 
 #main--index-container {
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 #main--index-title {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	color: #f9f9f9;
 }
 
 #main--index-greeting {
 	font-style: italic;
+	line-height: .5;
 }
 
 #main--index-name {
@@ -258,6 +258,10 @@ main {
 .main--index-content {
 	text-align: left;
 	margin-bottom: 20px;
+}
+
+p + ul {
+    margin-top: -10px;
 }
 
 #main--index-thanks {
