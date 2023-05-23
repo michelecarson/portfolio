@@ -182,7 +182,7 @@ body {
 }
 
 .navbar-dark {
-	padding: 20px 12px !important;
+	padding: 15px 12px !important;
 }
 
 #hamburger-menu {
@@ -210,8 +210,8 @@ body {
 }
 
 .nav-item {
-	font-size: larger;	
-	font-weight: bold; 
+	font-size: 1em;
+	font-weight: 600 !important;
 	color: #f9f9f9;
 }
 
@@ -319,7 +319,8 @@ main {
 #main--index-thanks {
 	font-style: italic;
 	text-align: center;
-	margin-block: 40px;
+	font-size: .875em;
+
 }
 
 .main--title {
@@ -330,22 +331,30 @@ main {
 	color: #f9f9f9;
 }
 
-.main--preview-img {
-	margin-bottom: 30px;
+.mobile-screen {
+	margin-bottom: 20px;
+}
+
+.main--preview-image {
+	margin-bottom: 20px;
 }
 
 .main--subtitle {
 	font-weight: 600;
 	color: #f9f9f9;
+	margin-top: 10px;
 }
 
-.main--link-list {
+.main--links-list > a {
+	display: block;
 	line-height: 2;
 }
 
-.main--link-list-behance {
+.behance {
 	font-family: 'Lobster Two', cursive;
 	font-size: 1.35em;
+	line-height: 3;
+	display: block;
 }
 
 section.row {
@@ -353,12 +362,12 @@ section.row {
 }
 
 div.col {
-	margin-top: 10;
+	margin-top: 0;
 }
 
 #portfolio-slideshow {
 	background-color: #f9f9f9;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -465,7 +474,11 @@ footer {
 	}
 
 	.navbar-dark {
-		margin: 10px 240px 5px;
+		margin: 5px 394px;
+	}
+
+	.nav-link {
+		margin-right: 0;
 	}
 
 	#name {
@@ -487,10 +500,7 @@ footer {
 	}
 
 	#portfolio-slideshow {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		padding-left: 270px;
-		padding-right: 270px;
+		padding: 20px 270px;
 	}
 	
 	.carousel-item {
