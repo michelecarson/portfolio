@@ -480,6 +480,10 @@ footer {
 		margin-right: 0;
 	}
 
+	.nav-item {
+		margin-left: 7px;
+	}
+
 	#name {
 		font-size: 1.7em;
 	}
